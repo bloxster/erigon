@@ -8,8 +8,8 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set/v2"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/holiman/uint256"
-	"github.com/erigontech/log/v3"
 	"golang.org/x/net/context"
 
 	"github.com/erigontech/erigon-lib/chain"

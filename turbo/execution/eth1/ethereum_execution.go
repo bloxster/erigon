@@ -5,7 +5,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"golang.org/x/sync/semaphore"
 	"google.golang.org/protobuf/types/known/emptypb"
 

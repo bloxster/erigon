@@ -12,9 +12,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/klauspost/compress/zstd"
 	"github.com/erigontech/erigon-lib/common/datadir"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/klauspost/compress/zstd"
 
 	"github.com/erigontech/erigon-lib/chain/snapcfg"
 	libcommon "github.com/erigontech/erigon-lib/common"

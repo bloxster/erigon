@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/anacrolix/torrent"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"golang.org/x/sync/errgroup"
 
 	"github.com/erigontech/erigon-lib/chain"

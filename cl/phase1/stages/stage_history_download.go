@@ -18,7 +18,7 @@ import (
 	"github.com/erigontech/erigon/cl/phase1/network"
 	"github.com/erigontech/erigon/turbo/snapshotsync/freezeblocks"
 
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 
 	"github.com/erigontech/erigon/cl/clparams"
 	"github.com/erigontech/erigon/cl/cltypes"

@@ -19,7 +19,6 @@ package node
 import (
 	"bytes"
 	"fmt"
-	"github.com/erigontech/erigon-lib/common"
 	"io"
 	"net/http"
 	"net/url"
@@ -27,11 +26,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gorilla/websocket"
+	"github.com/erigontech/erigon-lib/common"
+
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/rpc"
 	"github.com/erigontech/erigon/rpc/rpccfg"
 	"github.com/erigontech/erigon/turbo/testlog"
-	"github.com/erigontech/log/v3"
+	"github.com/gorilla/websocket"
 
 	"github.com/stretchr/testify/assert"
 )

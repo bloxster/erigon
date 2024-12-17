@@ -24,8 +24,8 @@ import (
 	"math/big"
 	"sync/atomic"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/holiman/uint256"
-	"github.com/erigontech/log/v3"
 	"github.com/protolambda/ztyp/codec"
 
 	"github.com/erigontech/erigon-lib/chain"

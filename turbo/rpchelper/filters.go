@@ -6,12 +6,13 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/prometheus/client_golang/prometheus"
 	"io"
 	"reflect"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/prometheus/client_golang/prometheus"
 
 	libcommon "github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/common/concurrent"
@@ -19,8 +20,8 @@ import (
 	"github.com/erigontech/erigon-lib/gointerfaces/grpcutil"
 	"github.com/erigontech/erigon-lib/gointerfaces/remote"
 	"github.com/erigontech/erigon-lib/gointerfaces/txpool"
+	"github.com/erigontech/erigon-lib/log/v3"
 	txpool2 "github.com/erigontech/erigon-lib/txpool"
-	"github.com/erigontech/log/v3"
 	"google.golang.org/grpc"
 
 	"github.com/erigontech/erigon/core/types"

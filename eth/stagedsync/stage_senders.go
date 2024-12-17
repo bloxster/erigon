@@ -18,9 +18,9 @@ import (
 	"github.com/erigontech/erigon-lib/common/length"
 	"github.com/erigontech/erigon-lib/etl"
 	"github.com/erigontech/erigon-lib/kv"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/consensus"
 	"github.com/erigontech/erigon/turbo/services"
-	"github.com/erigontech/log/v3"
 	"github.com/erigontech/secp256k1"
 
 	"github.com/erigontech/erigon/common/debug"

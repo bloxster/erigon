@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/erigontech/erigon-lib/kv/memdb"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon-lib/wrap"
-	"github.com/erigontech/log/v3"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/erigontech/erigon/eth/ethconfig"

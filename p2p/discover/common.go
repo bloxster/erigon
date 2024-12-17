@@ -24,11 +24,11 @@ import (
 
 	"github.com/erigontech/erigon/crypto"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/common/mclock"
 	"github.com/erigontech/erigon/p2p/enode"
 	"github.com/erigontech/erigon/p2p/enr"
 	"github.com/erigontech/erigon/p2p/netutil"
-	"github.com/erigontech/log/v3"
 )
 
 // UDPConn is a network connection on which discovery can operate.

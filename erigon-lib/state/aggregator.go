@@ -37,7 +37,7 @@ import (
 	"github.com/erigontech/erigon-lib/kv/bitmapdb"
 	"github.com/erigontech/erigon-lib/kv/iter"
 	"github.com/erigontech/erigon-lib/kv/order"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"golang.org/x/sync/errgroup"
 )
 

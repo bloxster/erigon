@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/holiman/uint256"
 	"github.com/erigontech/erigon-lib/chain/networkname"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/common"
 	"github.com/erigontech/erigon/common/fdlimit"
 	"github.com/erigontech/erigon/core/types"
@@ -21,7 +21,7 @@ import (
 	"github.com/erigontech/erigon/node"
 	"github.com/erigontech/erigon/params"
 	"github.com/erigontech/erigon/tests/bor/helper"
-	"github.com/erigontech/log/v3"
+	"github.com/holiman/uint256"
 
 	"github.com/erigontech/erigon-lib/gointerfaces"
 

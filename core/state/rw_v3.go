@@ -10,9 +10,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/holiman/uint256"
 	"github.com/erigontech/erigon-lib/kv/temporal"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/holiman/uint256"
 	btree2 "github.com/tidwall/btree"
 
 	"github.com/erigontech/erigon-lib/common"

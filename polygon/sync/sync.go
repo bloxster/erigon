@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 
 	"github.com/erigontech/erigon/core/types"
 	"github.com/erigontech/erigon/polygon/heimdall"

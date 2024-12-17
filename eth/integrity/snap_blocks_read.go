@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/erigontech/erigon-lib/kv"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/turbo/services"
-	"github.com/erigontech/log/v3"
 )
 
 func SnapBlocksRead(db kv.RoDB, blockReader services.FullBlockReader, ctx context.Context, failFast bool) error {

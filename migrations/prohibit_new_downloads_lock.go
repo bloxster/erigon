@@ -9,8 +9,8 @@ import (
 	"github.com/erigontech/erigon-lib/common/dir"
 	"github.com/erigontech/erigon-lib/downloader"
 	"github.com/erigontech/erigon-lib/kv"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/eth/stagedsync/stages"
-	"github.com/erigontech/log/v3"
 )
 
 var ProhibitNewDownloadsLock = Migration{

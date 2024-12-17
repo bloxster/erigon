@@ -37,7 +37,7 @@ import (
 	"github.com/erigontech/erigon-lib/seg/patricia"
 	"github.com/erigontech/erigon-lib/seg/sais"
 
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 )
 
 // MinPatternScore is minimum score (per superstring) required to consider including pattern into the dictionary

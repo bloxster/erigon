@@ -7,8 +7,8 @@ import (
 	"io"
 	"testing"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/golang/snappy"
-	"github.com/erigontech/log/v3"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/core/protocol"

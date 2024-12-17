@@ -13,8 +13,8 @@ import (
 	"github.com/erigontech/erigon-lib/kv/temporal/temporaltest"
 	"github.com/stretchr/testify/require"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/eth/stagedsync/stages"
-	"github.com/erigontech/log/v3"
 )
 
 func genTestCallTraceSet(t *testing.T, tx kv.RwTx, to uint64) {

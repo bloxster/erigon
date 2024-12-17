@@ -6,17 +6,18 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 	"fmt"
-	"github.com/erigontech/erigon-lib/common/hexutil"
 	"math/bits"
 	"sync/atomic"
 	"time"
 
+	"github.com/erigontech/erigon-lib/common/hexutil"
+
 	"github.com/erigontech/erigon-lib/common/length"
 	"github.com/erigontech/erigon-lib/kv"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/common/math"
 	"github.com/erigontech/erigon/ethdb"
 	"github.com/erigontech/erigon/turbo/trie"
-	"github.com/erigontech/log/v3"
 )
 
 // AssertSubset a & b == a - checks whether a is subset of b

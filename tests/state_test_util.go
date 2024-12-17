@@ -25,8 +25,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/holiman/uint256"
 	"github.com/erigontech/erigon-lib/config3"
+	"github.com/holiman/uint256"
 	"golang.org/x/crypto/sha3"
 
 	"github.com/erigontech/erigon-lib/chain"
@@ -36,6 +36,7 @@ import (
 	"github.com/erigontech/erigon-lib/kv"
 	types2 "github.com/erigontech/erigon-lib/types"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/common"
 	"github.com/erigontech/erigon/common/math"
 	"github.com/erigontech/erigon/core"
@@ -46,7 +47,6 @@ import (
 	"github.com/erigontech/erigon/rlp"
 	"github.com/erigontech/erigon/turbo/rpchelper"
 	"github.com/erigontech/erigon/turbo/trie"
-	"github.com/erigontech/log/v3"
 )
 
 // StateTest checks transaction processing without block context.

@@ -15,7 +15,7 @@ import (
 	"github.com/erigontech/erigon-lib/etl"
 	"github.com/erigontech/erigon-lib/kv"
 	"github.com/erigontech/erigon-lib/kv/mdbx"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"go.uber.org/zap/buffer"
 
 	"github.com/erigontech/erigon/cmd/verkle/verkletrie"

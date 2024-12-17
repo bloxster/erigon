@@ -24,12 +24,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/go-test/deep"
-	"github.com/holiman/uint256"
 	libcommon "github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/common/hexutility"
+	"github.com/erigontech/erigon-lib/log/v3"
 	types2 "github.com/erigontech/erigon-lib/types"
-	"github.com/erigontech/log/v3"
+	"github.com/go-test/deep"
+	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

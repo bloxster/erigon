@@ -29,8 +29,8 @@ import (
 	"time"
 
 	"github.com/c2h5oh/datasize"
+	"github.com/erigontech/erigon-lib/log/v3"
 	mdbx1 "github.com/erigontech/mdbx-go/mdbx"
-	"github.com/erigontech/log/v3"
 
 	"github.com/erigontech/erigon-lib/kv"
 	"github.com/erigontech/erigon-lib/kv/mdbx"

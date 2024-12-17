@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/holiman/uint256"
 	"github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/txpool/txpoolcfg"
 	"github.com/erigontech/erigon-lib/wrap"
+	"github.com/holiman/uint256"
 
 	"github.com/erigontech/erigon-lib/gointerfaces/sentry"
 	"github.com/erigontech/erigon-lib/gointerfaces/txpool"
@@ -22,6 +22,7 @@ import (
 	"github.com/erigontech/erigon/common/u256"
 
 	txpool_proto "github.com/erigontech/erigon-lib/gointerfaces/txpool"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/core"
 	"github.com/erigontech/erigon/core/types"
 	"github.com/erigontech/erigon/eth/protocols/eth"
@@ -31,7 +32,6 @@ import (
 	"github.com/erigontech/erigon/turbo/rpchelper"
 	"github.com/erigontech/erigon/turbo/stages"
 	"github.com/erigontech/erigon/turbo/stages/mock"
-	"github.com/erigontech/log/v3"
 )
 
 func newBaseApiForTest(m *mock.MockSentry) *jsonrpc.BaseAPI {

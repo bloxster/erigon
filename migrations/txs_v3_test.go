@@ -5,19 +5,20 @@ import (
 	"context"
 	"encoding/binary"
 	"fmt"
-	"github.com/erigontech/erigon-lib/kv/dbutils"
 	"math/big"
 	"testing"
 	"time"
+
+	"github.com/erigontech/erigon-lib/kv/dbutils"
 
 	libcommon "github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/common/hexutility"
 	"github.com/erigontech/erigon-lib/common/u256"
 	"github.com/erigontech/erigon-lib/kv"
 	"github.com/erigontech/erigon-lib/kv/memdb"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/migrations"
 	"github.com/erigontech/erigon/rlp"
-	"github.com/erigontech/log/v3"
 	"github.com/stretchr/testify/require"
 
 	"github.com/erigontech/erigon/core/rawdb"

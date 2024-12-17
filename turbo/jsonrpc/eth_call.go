@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/holiman/uint256"
 	"github.com/erigontech/erigon-lib/kv/membatchwithdb"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/holiman/uint256"
 	"google.golang.org/grpc"
 
 	libcommon "github.com/erigontech/erigon-lib/common"

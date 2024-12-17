@@ -10,6 +10,7 @@ import (
 	libcommon "github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/kv/memdb"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/accounts/abi"
 	"github.com/erigontech/erigon/consensus/aura"
 	"github.com/erigontech/erigon/core"
@@ -17,7 +18,6 @@ import (
 	"github.com/erigontech/erigon/core/types"
 	"github.com/erigontech/erigon/turbo/stages/mock"
 	"github.com/erigontech/erigon/turbo/trie"
-	"github.com/erigontech/log/v3"
 )
 
 // Check that the first block of Gnosis Chain, which doesn't have any transactions,

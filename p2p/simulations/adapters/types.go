@@ -24,13 +24,13 @@ import (
 	"net"
 	"strconv"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/crypto"
 	"github.com/erigontech/erigon/node"
 	"github.com/erigontech/erigon/p2p"
 	"github.com/erigontech/erigon/p2p/enode"
 	"github.com/erigontech/erigon/p2p/enr"
 	"github.com/erigontech/erigon/rpc"
-	"github.com/erigontech/log/v3"
 
 	"github.com/gorilla/websocket"
 )

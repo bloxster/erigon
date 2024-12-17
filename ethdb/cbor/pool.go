@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/ugorji/go/codec"
 )
 

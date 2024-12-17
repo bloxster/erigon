@@ -26,8 +26,8 @@ import (
 	"github.com/erigontech/erigon-lib/chain/snapcfg"
 	libcommon "github.com/erigontech/erigon-lib/common"
 	diaglib "github.com/erigontech/erigon-lib/diagnostics"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/turbo/node"
-	"github.com/erigontech/log/v3"
 )
 
 var (

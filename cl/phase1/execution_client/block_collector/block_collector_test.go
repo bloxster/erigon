@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/cl/antiquary/tests"
 	"github.com/erigontech/erigon/cl/clparams"
 	"github.com/erigontech/erigon/cl/phase1/execution_client"
 	"github.com/erigontech/erigon/cl/phase1/execution_client/block_collector"
 	"github.com/erigontech/erigon/core/types"
-	"github.com/erigontech/log/v3"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

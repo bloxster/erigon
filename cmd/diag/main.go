@@ -10,6 +10,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/cmd/diag/db"
 	"github.com/erigontech/erigon/cmd/diag/downloader"
 	"github.com/erigontech/erigon/cmd/diag/stages"
@@ -18,7 +19,6 @@ import (
 	"github.com/erigontech/erigon/cmd/utils"
 	"github.com/erigontech/erigon/params"
 	"github.com/erigontech/erigon/turbo/logging"
-	"github.com/erigontech/log/v3"
 )
 
 func main() {

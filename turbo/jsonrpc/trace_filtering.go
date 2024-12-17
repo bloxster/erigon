@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	"github.com/RoaringBitmap/roaring/roaring64"
+	"github.com/erigontech/erigon-lib/log/v3"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/erigontech/log/v3"
 
 	"github.com/erigontech/erigon-lib/chain"
 	"github.com/erigontech/erigon-lib/common"

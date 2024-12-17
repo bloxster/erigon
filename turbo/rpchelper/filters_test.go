@@ -2,9 +2,10 @@ package rpchelper
 
 import (
 	"context"
-	"github.com/holiman/uint256"
-	"github.com/erigontech/erigon/core/types"
 	"testing"
+
+	"github.com/erigontech/erigon/core/types"
+	"github.com/holiman/uint256"
 
 	libcommon "github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/gointerfaces"
@@ -12,8 +13,8 @@ import (
 
 	types2 "github.com/erigontech/erigon-lib/gointerfaces/types"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/eth/filters"
-	"github.com/erigontech/log/v3"
 )
 
 func createLog() *remote.SubscribeLogsReply {

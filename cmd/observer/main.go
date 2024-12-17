@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 
 	"github.com/erigontech/erigon-lib/common"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/cmd/observer/database"
 	"github.com/erigontech/erigon/cmd/observer/observer"
 	"github.com/erigontech/erigon/cmd/observer/reports"
 	"github.com/erigontech/erigon/cmd/utils"
 	"github.com/erigontech/erigon/params"
-	"github.com/erigontech/log/v3"
 )
 
 func mainWithFlags(ctx context.Context, flags observer.CommandFlags, logger log.Logger) error {

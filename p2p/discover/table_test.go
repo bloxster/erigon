@@ -25,11 +25,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/crypto"
 	"github.com/erigontech/erigon/p2p/enode"
 	"github.com/erigontech/erigon/p2p/enr"
 	"github.com/erigontech/erigon/p2p/netutil"
-	"github.com/erigontech/log/v3"
 )
 
 func TestTable_pingReplace(t *testing.T) {

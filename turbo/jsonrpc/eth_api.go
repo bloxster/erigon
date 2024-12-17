@@ -11,9 +11,9 @@ import (
 
 	"github.com/erigontech/erigon-lib/common/hexutil"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	lru "github.com/hashicorp/golang-lru/v2"
 	"github.com/holiman/uint256"
-	"github.com/erigontech/log/v3"
 
 	"github.com/erigontech/erigon-lib/chain"
 	"github.com/erigontech/erigon-lib/common"

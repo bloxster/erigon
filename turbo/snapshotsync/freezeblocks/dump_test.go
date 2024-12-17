@@ -7,10 +7,10 @@ import (
 
 	"github.com/erigontech/erigon/polygon/bor/borcfg"
 
-	"github.com/holiman/uint256"
 	"github.com/erigontech/erigon-lib/chain/networkname"
 	"github.com/erigontech/erigon-lib/chain/snapcfg"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 
 	"github.com/erigontech/erigon-lib/chain"

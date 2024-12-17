@@ -8,9 +8,9 @@ import (
 	"strconv"
 
 	libcommon "github.com/erigontech/erigon-lib/common"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/cl/beacon/beaconhttp"
 	state_accessors "github.com/erigontech/erigon/cl/persistence/state"
-	"github.com/erigontech/log/v3"
 )
 
 type syncDutyResponse struct {

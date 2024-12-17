@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	libcommon "github.com/erigontech/erigon-lib/common"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 )
 
 func TestPromoteHashedStateClearState(t *testing.T) {

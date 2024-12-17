@@ -19,6 +19,7 @@ import (
 	"github.com/erigontech/erigon-lib/gointerfaces/remote"
 	"github.com/erigontech/erigon-lib/gointerfaces/txpool"
 	"github.com/erigontech/erigon-lib/kv"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/accounts/abi/bind"
 	"github.com/erigontech/erigon/accounts/abi/bind/backends"
 	"github.com/erigontech/erigon/common/u256"
@@ -33,7 +34,6 @@ import (
 	"github.com/erigontech/erigon/turbo/builder"
 	"github.com/erigontech/erigon/turbo/jsonrpc/contracts"
 	"github.com/erigontech/erigon/turbo/stages/mock"
-	"github.com/erigontech/log/v3"
 )
 
 type testAddresses struct {

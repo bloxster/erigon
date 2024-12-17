@@ -22,7 +22,7 @@ import (
 	"github.com/anacrolix/torrent/bencode"
 	"github.com/anacrolix/torrent/metainfo"
 	"github.com/erigontech/erigon-lib/downloader/snaptype"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/pelletier/go-toml/v2"
 )
 

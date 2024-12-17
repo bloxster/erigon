@@ -33,8 +33,8 @@ import (
 	"github.com/erigontech/erigon/ethdb/cbor"
 	"github.com/erigontech/erigon/rlp"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/gballet/go-verkle"
-	"github.com/erigontech/log/v3"
 
 	"github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/common/cmp"

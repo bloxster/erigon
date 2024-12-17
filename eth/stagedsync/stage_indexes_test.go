@@ -4,13 +4,14 @@ import (
 	"context"
 	"encoding/binary"
 	"fmt"
-	common2 "github.com/erigontech/erigon-lib/common"
-	"github.com/erigontech/erigon-lib/kv/dbutils"
 	"reflect"
 	"sort"
 	"strconv"
 	"testing"
 	"time"
+
+	common2 "github.com/erigontech/erigon-lib/common"
+	"github.com/erigontech/erigon-lib/kv/dbutils"
 
 	"github.com/RoaringBitmap/roaring/roaring64"
 	"github.com/erigontech/erigon-lib/common/length"
@@ -18,7 +19,7 @@ import (
 	"github.com/erigontech/erigon-lib/kv/bitmapdb"
 	kv2 "github.com/erigontech/erigon-lib/kv/memdb"
 	"github.com/erigontech/erigon-lib/kv/temporal/historyv2"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

@@ -31,9 +31,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/golang-jwt/jwt/v4"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/erigontech/log/v3"
 
 	libcommon "github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/common/dbg"

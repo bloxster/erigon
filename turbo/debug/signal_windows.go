@@ -7,8 +7,8 @@ import (
 	"os"
 	"os/signal"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	_debug "github.com/erigontech/erigon/common/debug"
-	"github.com/erigontech/log/v3"
 )
 
 func ListenSignals(stack io.Closer, logger log.Logger) {

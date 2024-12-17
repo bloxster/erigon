@@ -21,9 +21,9 @@ import (
 	"fmt"
 	log2 "log"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/node"
 	"github.com/erigontech/erigon/node/nodecfg"
-	"github.com/erigontech/log/v3"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

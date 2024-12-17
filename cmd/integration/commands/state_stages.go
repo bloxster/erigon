@@ -22,7 +22,7 @@ import (
 	"github.com/erigontech/erigon-lib/kv/bitmapdb"
 	"github.com/erigontech/erigon-lib/kv/kvcfg"
 	"github.com/erigontech/erigon-lib/kv/temporal/historyv2"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/spf13/cobra"
 
 	"github.com/erigontech/erigon/cmd/hack/tool/fromdb"

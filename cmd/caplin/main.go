@@ -26,7 +26,7 @@ import (
 	"github.com/erigontech/erigon/cl/utils/eth_clock"
 	"github.com/erigontech/erigon/eth/ethconfig"
 
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/urfave/cli/v2"
 
 	"github.com/erigontech/erigon/cmd/caplin/caplin1"

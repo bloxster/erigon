@@ -11,7 +11,7 @@ import (
 
 	"github.com/RoaringBitmap/roaring"
 	"github.com/c2h5oh/datasize"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 
 	libcommon "github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/common/dbg"

@@ -20,18 +20,19 @@ import (
 	"context"
 	"crypto/ecdsa"
 	"errors"
-	"github.com/erigontech/erigon-lib/common/hexutil"
 	"reflect"
 	"testing"
 	"time"
 
+	"github.com/erigontech/erigon-lib/common/hexutil"
+
 	"github.com/davecgh/go-spew/spew"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/common/mclock"
 	"github.com/erigontech/erigon/crypto"
 	"github.com/erigontech/erigon/p2p/enode"
 	"github.com/erigontech/erigon/p2p/enr"
 	"github.com/erigontech/erigon/turbo/testlog"
-	"github.com/erigontech/log/v3"
 )
 
 var signingKeyForTesting, _ = crypto.ToECDSA(hexutil.MustDecode("0xdc599867fc513f8f5e2c2c9c489cde5e71362d1d9ec6e693e0de063236ed1240"))

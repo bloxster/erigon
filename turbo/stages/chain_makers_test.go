@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/holiman/uint256"
 	"github.com/erigontech/erigon-lib/chain"
+	"github.com/holiman/uint256"
 
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 
 	"github.com/erigontech/erigon/core"
 	"github.com/erigontech/erigon/core/state"

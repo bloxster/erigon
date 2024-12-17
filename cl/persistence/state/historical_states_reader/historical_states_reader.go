@@ -8,9 +8,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/klauspost/compress/zstd"
 	"github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/kv"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/cl/clparams"
 	"github.com/erigontech/erigon/cl/cltypes"
 	"github.com/erigontech/erigon/cl/cltypes/solid"
@@ -19,7 +19,7 @@ import (
 	"github.com/erigontech/erigon/cl/phase1/core/state"
 	"github.com/erigontech/erigon/cl/phase1/core/state/lru"
 	"github.com/erigontech/erigon/turbo/snapshotsync/freezeblocks"
-	"github.com/erigontech/log/v3"
+	"github.com/klauspost/compress/zstd"
 
 	libcommon "github.com/erigontech/erigon-lib/common"
 )

@@ -11,16 +11,16 @@ import (
 	"github.com/erigontech/erigon-lib/common/hexutil"
 	"github.com/erigontech/erigon-lib/kv/dbutils"
 
-	"github.com/holiman/uint256"
 	libcommon "github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/common/hexutility"
 	"github.com/erigontech/erigon-lib/kv"
 	"github.com/erigontech/erigon-lib/kv/memdb"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/core/types/accounts"
 	"github.com/erigontech/erigon/crypto"
 	"github.com/erigontech/erigon/eth/stagedsync"
 	"github.com/erigontech/erigon/turbo/trie"
-	"github.com/erigontech/log/v3"
+	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 )
 

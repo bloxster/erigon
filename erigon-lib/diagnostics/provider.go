@@ -25,7 +25,7 @@ import (
 	"sync/atomic"
 
 	"github.com/erigontech/erigon-lib/common/dbg"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 )
 
 type ctxKey int

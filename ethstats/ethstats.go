@@ -22,7 +22,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/erigontech/erigon-lib/gointerfaces/txpool"
 	"math/big"
 	"net/http"
 	"regexp"
@@ -32,11 +31,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gorilla/websocket"
+	"github.com/erigontech/erigon-lib/gointerfaces/txpool"
+
 	libcommon "github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/kv"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/turbo/services"
-	"github.com/erigontech/log/v3"
+	"github.com/gorilla/websocket"
 
 	"github.com/erigontech/erigon/consensus"
 	"github.com/erigontech/erigon/core/rawdb"

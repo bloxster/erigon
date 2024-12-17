@@ -18,6 +18,7 @@ import (
 	"github.com/erigontech/erigon-lib/kv/kvcache"
 	"github.com/erigontech/erigon-lib/kv/remotedb"
 	"github.com/erigontech/erigon-lib/kv/remotedbserver"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon-lib/txpool"
 	"github.com/erigontech/erigon-lib/txpool/txpoolcfg"
 	"github.com/erigontech/erigon-lib/txpool/txpoolutil"
@@ -26,7 +27,6 @@ import (
 	common2 "github.com/erigontech/erigon/common"
 	"github.com/erigontech/erigon/consensus/misc"
 	"github.com/erigontech/erigon/ethdb/privateapi"
-	"github.com/erigontech/log/v3"
 	"github.com/spf13/cobra"
 
 	"github.com/erigontech/erigon/cmd/utils"

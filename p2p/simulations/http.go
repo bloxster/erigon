@@ -34,9 +34,9 @@ import (
 	"github.com/erigontech/erigon/p2p/simulations/adapters"
 	"github.com/erigontech/erigon/rpc"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/gorilla/websocket"
 	"github.com/julienschmidt/httprouter"
-	"github.com/erigontech/log/v3"
 )
 
 // DefaultClient is the default simulation API client which expects the API

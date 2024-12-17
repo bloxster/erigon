@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/erigontech/erigon-lib/config3"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 )
 
 func TestBlockchain(t *testing.T) {

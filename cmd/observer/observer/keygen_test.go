@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/crypto"
-	"github.com/erigontech/log/v3"
 	"github.com/stretchr/testify/assert"
 )
 

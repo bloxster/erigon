@@ -20,9 +20,9 @@ import (
 	"github.com/erigontech/erigon-lib/diagnostics"
 	"github.com/erigontech/erigon-lib/gointerfaces"
 	sentinelrpc "github.com/erigontech/erigon-lib/gointerfaces/sentinel"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/cl/cltypes"
 	"github.com/erigontech/erigon/cl/utils"
-	"github.com/erigontech/log/v3"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

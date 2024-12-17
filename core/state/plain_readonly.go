@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/google/btree"
 	"github.com/holiman/uint256"
-	"github.com/erigontech/log/v3"
 
 	libcommon "github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/common/length"

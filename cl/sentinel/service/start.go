@@ -18,8 +18,8 @@ import (
 	"github.com/erigontech/erigon-lib/direct"
 	sentinelrpc "github.com/erigontech/erigon-lib/gointerfaces/sentinel"
 	"github.com/erigontech/erigon-lib/kv"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/cl/cltypes"
-	"github.com/erigontech/log/v3"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

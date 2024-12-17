@@ -10,8 +10,8 @@ import (
 	"sort"
 	"time"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	borsnaptype "github.com/erigontech/erigon/polygon/bor/snaptype"
-	"github.com/erigontech/log/v3"
 
 	"github.com/erigontech/erigon-lib/common/hexutility"
 	"github.com/erigontech/erigon/polygon/bor"

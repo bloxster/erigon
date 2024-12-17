@@ -6,7 +6,7 @@ import (
 
 	"github.com/erigontech/erigon-lib/chain/networkname"
 	"github.com/erigontech/erigon-lib/kv"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/urfave/cli/v2"
 
 	"github.com/erigontech/erigon/cmd/utils"

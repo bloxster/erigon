@@ -6,10 +6,10 @@ import (
 	"errors"
 	"time"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/cmd/observer/database"
 	"github.com/erigontech/erigon/p2p"
 	"github.com/erigontech/erigon/p2p/enode"
-	"github.com/erigontech/log/v3"
 )
 
 type Diplomat struct {

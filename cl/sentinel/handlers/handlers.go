@@ -33,8 +33,8 @@ import (
 	"github.com/erigontech/erigon/turbo/snapshotsync/freezeblocks"
 	"golang.org/x/time/rate"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/cl/clparams"
-	"github.com/erigontech/log/v3"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"

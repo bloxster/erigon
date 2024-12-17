@@ -13,9 +13,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/holiman/uint256"
 	datadir2 "github.com/erigontech/erigon-lib/common/datadir"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/holiman/uint256"
 	"github.com/spf13/cobra"
 
 	chain2 "github.com/erigontech/erigon-lib/chain"

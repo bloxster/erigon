@@ -30,7 +30,7 @@ import (
 	"time"
 
 	"github.com/erigontech/erigon-lib/common/dir"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 )
 
 func TestServerRegisterName(t *testing.T) {

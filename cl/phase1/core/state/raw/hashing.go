@@ -5,9 +5,9 @@ import (
 
 	"github.com/erigontech/erigon-lib/common"
 	libcommon "github.com/erigontech/erigon-lib/common"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/cl/clparams"
 	"github.com/erigontech/erigon/cl/merkle_tree"
-	"github.com/erigontech/log/v3"
 )
 
 func (b *BeaconState) HashSSZ() (out [32]byte, err error) {

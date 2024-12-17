@@ -13,11 +13,11 @@ import (
 	"github.com/erigontech/erigon/cl/utils/eth_clock"
 
 	"github.com/c2h5oh/datasize"
-	"github.com/golang/snappy"
 	libcommon "github.com/erigontech/erigon-lib/common"
 	"github.com/erigontech/erigon-lib/gointerfaces"
 	"github.com/erigontech/erigon-lib/gointerfaces/sentinel"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/golang/snappy"
 	"go.uber.org/zap/buffer"
 
 	"github.com/erigontech/erigon/cl/clparams"

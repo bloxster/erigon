@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/erigontech/erigon-lib/kv"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/params"
-	"github.com/erigontech/log/v3"
 )
 
 var DefaultMode = Mode{

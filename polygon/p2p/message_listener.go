@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"google.golang.org/grpc"
 
 	"github.com/erigontech/erigon-lib/direct"

@@ -27,11 +27,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/erigon/event"
 	"github.com/erigontech/erigon/p2p"
 	"github.com/erigontech/erigon/p2p/enode"
 	"github.com/erigontech/erigon/p2p/simulations/adapters"
-	"github.com/erigontech/log/v3"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

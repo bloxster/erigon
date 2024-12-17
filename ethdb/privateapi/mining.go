@@ -4,13 +4,14 @@ import (
 	"bytes"
 	"context"
 	"errors"
-	"github.com/erigontech/erigon-lib/common/hexutil"
 	"sync"
+
+	"github.com/erigontech/erigon-lib/common/hexutil"
 
 	libcommon "github.com/erigontech/erigon-lib/common"
 	proto_txpool "github.com/erigontech/erigon-lib/gointerfaces/txpool"
 	types2 "github.com/erigontech/erigon-lib/gointerfaces/types"
-	"github.com/erigontech/log/v3"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"google.golang.org/protobuf/types/known/emptypb"
 
 	"github.com/erigontech/erigon/consensus/ethash"

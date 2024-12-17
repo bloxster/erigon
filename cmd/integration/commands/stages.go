@@ -12,10 +12,10 @@ import (
 	"time"
 
 	"github.com/c2h5oh/datasize"
+	"github.com/erigontech/erigon-lib/log/v3"
 	"github.com/erigontech/mdbx-go/mdbx"
-	lru "github.com/hashicorp/golang-lru/arc/v2"
-	"github.com/erigontech/log/v3"
 	"github.com/erigontech/secp256k1"
+	lru "github.com/hashicorp/golang-lru/arc/v2"
 	"github.com/spf13/cobra"
 
 	chain2 "github.com/erigontech/erigon-lib/chain"

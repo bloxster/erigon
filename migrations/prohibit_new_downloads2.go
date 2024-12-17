@@ -12,9 +12,9 @@ import (
 	"github.com/erigontech/erigon-lib/downloader"
 	"github.com/erigontech/erigon-lib/downloader/snaptype"
 	"github.com/erigontech/erigon-lib/kv"
+	"github.com/erigontech/erigon-lib/log/v3"
 	coresnaptype "github.com/erigontech/erigon/core/snaptype"
 	borsnaptype "github.com/erigontech/erigon/polygon/bor/snaptype"
-	"github.com/erigontech/log/v3"
 )
 
 // Switch to the second version of download.lock.
