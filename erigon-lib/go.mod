@@ -4,7 +4,7 @@ go 1.22.0
 
 require (
 	github.com/erigontech/erigon-snapshot v1.3.1-0.20240805114253-42da880260bb
-	github.com/erigontech/interfaces v0.0.0-20241120074553-214b5fd396ed
+	github.com/erigontech/interfaces v1.0.1
 	github.com/erigontech/mdbx-go v0.27.24
 	github.com/erigontech/secp256k1 v1.1.0
 	github.com/rs/dnscache v0.0.0-20211102005908-e0241e321417
@@ -146,3 +146,5 @@ require (
 replace github.com/anacrolix/torrent => github.com/erigontech/torrent v1.54.2-alpha-8
 
 replace github.com/erigontech/erigon-snapshot => github.com/ledgerwatch/erigon-snapshot v1.3.1-0.20240805114253-42da880260bb
+
+replace github.com/erigontech/interfaces => github.com/ledgerwatch/interfaces v0.0.0-20241024161200-024ffe1cabff
