@@ -1,15 +1,15 @@
-module github.com/ledgerwatch/erigon
+module github.com/erigontech/erigon
 
 go 1.22.0
 
 require (
 	github.com/erigontech/mdbx-go v0.27.24
 	github.com/erigontech/silkworm-go v0.18.0
-	github.com/ledgerwatch/log/v3 v3.9.0
-	github.com/ledgerwatch/secp256k1 v1.0.0
+	github.com/erigontech/log/v3 v3.9.0
+	github.com/erigontech/secp256k1 v1.0.0
 )
 
-replace github.com/ledgerwatch/erigon-lib => ./erigon-lib
+replace github.com/erigontech/erigon-lib => ./erigon-lib
 
 require (
 	gfx.cafe/util/go/generic v0.0.0-20230721185457-c559e86c829c
@@ -63,8 +63,8 @@ require (
 	github.com/json-iterator/go v1.1.12
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/klauspost/compress v1.17.8
-	github.com/ledgerwatch/erigon-lib v1.0.0
-	github.com/ledgerwatch/erigonwatch v0.1.2
+	github.com/erigontech/erigon-lib v1.0.0
+	github.com/erigontech/erigonwatch v0.1.2
 	github.com/libp2p/go-libp2p v0.34.0
 	github.com/libp2p/go-libp2p-mplex v0.9.0
 	github.com/libp2p/go-libp2p-pubsub v0.11.0
@@ -186,7 +186,7 @@ require (
 	github.com/koron/go-ssdp v0.0.4 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
-	github.com/ledgerwatch/erigon-snapshot v1.3.1-0.20240805114253-42da880260bb // indirect
+	github.com/erigontech/erigon-snapshot v1.3.1-0.20240805114253-42da880260bb // indirect
 	github.com/libp2p/go-buffer-pool v0.1.0 // indirect
 	github.com/libp2p/go-flow-metrics v0.1.0 // indirect
 	github.com/libp2p/go-libp2p-asn-util v0.4.1 // indirect

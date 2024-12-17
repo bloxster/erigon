@@ -4,12 +4,12 @@ on:
     branches:
       - devel
       - alpha
-      - 'release/**'
+      - "release/**"
   pull_request:
     branches:
       - devel
       - alpha
-      - 'release/**'
+      - "release/**"
     types:
       - opened
       - reopened
@@ -20,15 +20,15 @@ jobs:
   tests:
     strategy:
       matrix:
-#        disable macos-11 until https://github.com/ledgerwatch/erigon/issues/8789
-        os: [ ubuntu-22.04 ] # list of os: https://github.com/actions/virtual-environments
+        #        disable macos-11 until https://github.com/erigontech/erigon/issues/8789
+        os: [ubuntu-22.04] # list of os: https://github.com/actions/virtual-environments
     runs-on: ${{ matrix.os }}
 
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-go@v4
         with:
-          go-version: '1.22'
+          go-version: "1.22"
       - name: Install dependencies on Linux
         if: runner.os == 'Linux'
         run: sudo apt update && sudo apt install build-essential
@@ -39,14 +39,14 @@ jobs:
   tests-windows:
     strategy:
       matrix:
-        os: [ windows-2022 ]
+        os: [windows-2022]
     runs-on: ${{ matrix.os }}
 
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-go@v4
         with:
-          go-version: '1.22'
+          go-version: "1.22"
 
       - uses: actions/cache@v3
         with:

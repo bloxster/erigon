@@ -135,7 +135,7 @@ ERROR[03-24|13:49:53.343] Ethereum peer removal failed             peer=bfa4a38e
 ```
 
 The second error happens during the unwinding the `TxPool` stage. It has been reported in this
-issue: https://github.com/ledgerwatch/erigon/issues/848
+issue: https://github.com/erigontech/erigon/issues/848
 
 ```
 ERROR[08-01|14:30:38.297] Demoting invalidated transaction         hash="6ee8a8…92bf22"
@@ -329,4 +329,3 @@ To replay recorded queries, `replay` command can be used:
 ```
 ./build/bin/rpctest replay --erigonUrl http://192.168.1.2:8545 --recordFile req.txt
 ```
-

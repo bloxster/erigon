@@ -1,5 +1,6 @@
 # ETL
-ETL framework is most commonly used in [staged sync](https://github.com/ledgerwatch/erigon/blob/devel/eth/stagedsync/README.md).
+
+ETL framework is most commonly used in [staged sync](https://github.com/erigontech/erigon/blob/devel/eth/stagedsync/README.md).
 
 It implements a pattern where we extract some data from a database, transform it,
 then put it into temp files and insert back to the database in sorted order.
@@ -26,7 +27,7 @@ func keyTransformExtractFunc(transformKey func([]byte) ([]byte, error)) etl.Extr
 }
 
 err := etl.Transform(
-		db,                                              // database 
+		db,                                              // database
 		dbutils.PlainStateBucket,                        // "from" bucket
 		dbutils.CurrentStateBucket,                      // "to" bucket
 		datadir,                                         // where to store temp files
@@ -44,15 +45,15 @@ err := etl.Transform(
 
 ## Data Transformation
 
-The whole flow is shown in the image 
+The whole flow is shown in the image
 
 ![](./ETL.png)
 
 Data could be transformed in two places along the pipeline:
 
-* transform on extraction
+- transform on extraction
 
-* transform on loading
+- transform on loading
 
 ### Transform On Extraction
 
@@ -112,16 +113,16 @@ a buffer until if overflows (`etl.ExtractArgs.BufferSize`).
 
 There are different types of buffers available with different behaviour.
 
-* `SortableSliceBuffer` -- just append `(k, v1)`, `(k, v2)` onto a slice. Duplicate keys
-    will lead to duplicate entries: `[(k, v1) (k, v2)]`.
+- `SortableSliceBuffer` -- just append `(k, v1)`, `(k, v2)` onto a slice. Duplicate keys
+  will lead to duplicate entries: `[(k, v1) (k, v2)]`.
 
-* `SortableAppendBuffer` -- on duplicate keys: merge. `(k, v1)`, `(k, v2)`
-    will lead to `k: [v1 v2]`
+- `SortableAppendBuffer` -- on duplicate keys: merge. `(k, v1)`, `(k, v2)`
+  will lead to `k: [v1 v2]`
 
-* `SortableOldestAppearedBuffer` -- on duplicate keys: keep the oldest. `(k,
-    v1)`, `(k v2)` will lead to `k: v1`
+- `SortableOldestAppearedBuffer` -- on duplicate keys: keep the oldest. `(k,
+  v1)`, `(k v2)` will lead to `k: v1`
 
-### Transforming Structs 
+### Transforming Structs
 
 Both transform functions and next functions allow only byte arrays.
 If you need to pass a struct, you will need to marshal it.
@@ -175,8 +176,7 @@ generating intermediate hashes in `../../core/chain_makers.go`, you can use
 
 It has a `.Collect()` method that you can provide your data to.
 
-
 ## Optimizations
 
-* if all data fits into a single file, we don't write anything to disk and just
-    use in-memory storage.
+- if all data fits into a single file, we don't write anything to disk and just
+  use in-memory storage.

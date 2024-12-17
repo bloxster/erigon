@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ledgerwatch/log/v3"
+	"github.com/erigontech/log/v3"
 )
 
 type PeerStats struct {

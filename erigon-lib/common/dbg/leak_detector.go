@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ledgerwatch/log/v3"
+	"github.com/erigontech/log/v3"
 )
 
 const FileCloseLogLevel = log.LvlTrace

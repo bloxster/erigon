@@ -29,8 +29,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ledgerwatch/erigon-lib/common/dir"
-	"github.com/ledgerwatch/log/v3"
+	"github.com/erigontech/erigon-lib/common/dir"
+	"github.com/erigontech/log/v3"
 )
 
 func TestServerRegisterName(t *testing.T) {

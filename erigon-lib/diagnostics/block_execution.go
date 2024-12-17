@@ -22,7 +22,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ledgerwatch/log/v3"
+	"github.com/erigontech/log/v3"
 )
 
 type BlockEexcStatsData struct {

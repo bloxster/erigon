@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"unicode"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/devnet"
-	"github.com/ledgerwatch/log/v3"
+	"github.com/erigontech/erigon/cmd/devnet/devnet"
+	"github.com/erigontech/log/v3"
 )
 
 var (

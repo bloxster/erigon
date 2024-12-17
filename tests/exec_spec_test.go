@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ledgerwatch/erigon-lib/config3"
-	"github.com/ledgerwatch/log/v3"
+	"github.com/erigontech/erigon-lib/config3"
+	"github.com/erigontech/log/v3"
 )
 
 func TestExecutionSpec(t *testing.T) {
