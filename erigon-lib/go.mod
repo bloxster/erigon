@@ -3,7 +3,7 @@ module github.com/erigontech/erigon-lib
 go 1.22.0
 
 require (
-	github.com/erigontech/erigon-snapshot v1.3.1-0.20241023024258-f64407a77e8e
+	github.com/erigontech/erigon-snapshot v1.3.1-0.20240805114253-42da880260bb
 	github.com/erigontech/interfaces v0.0.0-20241120074553-214b5fd396ed
 	github.com/erigontech/mdbx-go v0.27.24
 	github.com/erigontech/secp256k1 v1.1.0
@@ -144,3 +144,5 @@ require (
 )
 
 replace github.com/anacrolix/torrent => github.com/erigontech/torrent v1.54.2-alpha-8
+
+replace github.com/erigontech/erigon-snapshot => github.com/ledgerwatch/erigon-snapshot v1.3.1-0.20240805114253-42da880260bb
