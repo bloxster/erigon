@@ -7,7 +7,7 @@ by default.
 An accessible and complete version of the documentation is available at **[erigon.gitbook.io](https://erigon.gitbook.io)**.
 <br>
 
-![Build status](https://github.com/erigontech/erigon/actions/workflows/ci.yml/badge.svg) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ledgerwatch_erigon&metric=coverage)](https://sonarcloud.io/summary/new_code?id=ledgerwatch_erigon)
+![Build status](https://github.com/erigontech/erigon/actions/workflows/ci.yml/badge.svg) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=erigontech_erigon&metric=coverage)](https://sonarcloud.io/summary/new_code?id=erigontech_erigon)
 
 <!--ts-->
 
@@ -71,7 +71,7 @@ RAM: >=16GB, 64-bit architecture.
 [Golang version >= 1.21](https://golang.org/doc/install); GCC 10+ or Clang; On Linux: kernel > v4
 
 <code>🔬 more details on disk storage [here](https://erigon.substack.com/p/disk-footprint-changes-in-new-erigon?s=r)
-and [here](https://ledgerwatch.github.io/turbo_geth_release.html#Disk-space).</code>
+and [here](https://erigontech.github.io/turbo_geth_release.html#Disk-space).</code>
 
 # Usage
 
@@ -348,7 +348,7 @@ Quote your path if it has spaces.
 # Key features
 
 <code>🔬 See more
-detailed [overview of functionality and current limitations](https://ledgerwatch.github.io/turbo_geth_release.html). It
+detailed [overview of functionality and current limitations](https://erigontech.github.io/turbo_geth_release.html). It
 is being updated on recurring basis.</code>
 
 ### More Efficient State Storage

@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Erigon'
-copyright = u'2020, Ledgerwatch'
-author = u'Ledgerwatch'
+copyright = u'2020, erigontech'
+author = u'erigontech'
 
 # The short X.Y version
 version = u''
@@ -130,7 +130,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'Erigon.tex', u'Erigon Documentation',
-     u'Ledgerwatch', 'manual'),
+     u'erigontech', 'manual'),
 ]
 
 
