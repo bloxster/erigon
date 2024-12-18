@@ -98,7 +98,7 @@ func NewClient(cfg Config) *Client {
 	cfg = cfg.withDefaults()
 	rlimit := rate.NewLimiter(rate.Limit(cfg.RateLimit), 10)
 
-	entries, err := lru.New[string, entry](cfg.CacheLimit)
+	entries, err := lru.New[string, entry]("p2pClients",cfg.CacheLimit)
 	if err != nil {
 		log.Warn("can't create lru", "err", err)
 	}
