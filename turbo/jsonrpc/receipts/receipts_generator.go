@@ -93,7 +93,7 @@ func (g *Generator) PrepareEnv(ctx context.Context, block *types.Block, cfg *cha
 
 	usedGas := new(uint64)
 	usedBlobGas := new(uint64)
-	gp := new(core.GasPool).AddGas(block.GasLimit()).AddBlobGas(cfg.GetMaxBlobGasPerBlock())
+	gp := new(core.GasPool).AddGas(block.GasLimit()).AddBlobGas(cfg.GetMaxBlobGasPerBlock(block.Header().Time))
 
 	noopWriter := state.NewNoopWriter()
 

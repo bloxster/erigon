@@ -132,7 +132,7 @@ func AllComponents(ctx context.Context, cfg txpoolcfg.Config, cache kvcache.Cach
 	}
 
 	chainID, _ := uint256.FromBig(chainConfig.ChainID)
-	maxBlobsPerBlock := chainConfig.GetMaxBlobsPerBlock()
+	maxBlobsPerBlock := chainConfig.GetMaxBlobsPerBlock(uint64(time.Now().Second()))
 
 	shanghaiTime := chainConfig.ShanghaiTime
 	var agraBlock *big.Int
