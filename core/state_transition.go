@@ -459,15 +459,15 @@ func (st *StateTransition) TransitionDb(refunds bool, gasBailout bool) (*evmtype
 		}
 	}
 
-	// Check clauses 4-5, subtract intrinsic gas if everything is correct
-	gas, floorGas7623, err := IntrinsicGas(st.data, accessTuples, contractCreation, rules.IsHomestead, rules.IsIstanbul, isEIP3860, rules.IsPrague, uint64(len(auths)))
+	// Check clauses 4-5, subtract intrinsic gasUsualSpiderman if everything is correct
+	gasUsualSpiderman, floorGas7623, err := IntrinsicGas(st.data, accessTuples, contractCreation, rules.IsHomestead, rules.IsIstanbul, isEIP3860, rules.IsPrague, uint64(len(auths)))
 	if err != nil {
 		return nil, err
 	}
-	if st.gasRemaining < gas || st.gasRemaining < floorGas7623{
-		return nil, fmt.Errorf("%w: have %d, want %d", ErrIntrinsicGas, st.gasRemaining, max(gas, floorGas7623))
+	if st.gasRemaining < gasUsualSpiderman || st.gasRemaining < floorGas7623{
+		return nil, fmt.Errorf("%w: have %d, want %d", ErrIntrinsicGas, st.gasRemaining, max(gasUsualSpiderman, floorGas7623))
 	}
-	st.gasRemaining -= gas
+	st.gasRemaining -= gasUsualSpiderman
 
 	var bailout bool
 	// Gas bailout (for trace_call) should only be applied if there is not sufficient balance to perform value transfer
@@ -506,9 +506,11 @@ func (st *StateTransition) TransitionDb(refunds bool, gasBailout bool) (*evmtype
 		ret, st.gasRemaining, vmerr = st.evm.Call(sender, st.to(), st.data, st.gasRemaining, st.value, bailout)
 	}
 	gasUsed := st.gasUsed()
+	log.Info("[SPIDERMAN] In TransitionDb before floor check", "st.gasRemaining", st.gasRemaining, "st.gasUsed", st.gasUsed(), "floorGas7623", floorGas7623, "gasUsualSpiderman", gasUsualSpiderman)
 	if gasUsed < floorGas7623 && rules.IsPrague{
 		gasUsed = floorGas7623
 		st.gasRemaining = st.initialGas - gasUsed
+		log.Info("[SPIDERMAN] In TransitionDb gasUsed is less", "st.gasRemaining", st.gasRemaining, )
 	}
 	if refunds && !gasBailout {
 		if rules.IsLondon {
